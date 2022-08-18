@@ -1,0 +1,341 @@
+/* General*/
+
+:root {
+  --main-color: #212121;
+  --second-color: #2196f3;
+  --third-color: #757575;
+  --black-color: #000000;
+  --background-color: #2f303a;
+  --background-color2: #f5f4fa;
+  --background-color-white: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: var(--main-color);
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.get-in-touch {
+  color: var(--third-color);
+}
+a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+a:focus,
+a:hover {
+  color: var(--second-color);
+}
+li {
+  list-style: none;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Header*/
+
+.header {
+  display: block;
+  padding: 24px 0 25px 0;
+  background-color: var(--background-color-white);
+}
+.header-wrapper * {
+  display: inline-block;
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--black-color);
+}
+.header-logo:hover {
+  color: var(--black-color);
+}
+.header-logo span {
+  color: var(--second-color);
+}
+.header-navigation {
+  margin-left: 93px;
+}
+.header-navigation a {
+  font-weight: 500;
+}
+.header-navigation a:hover {
+  color: var(--second-color);
+}
+.header-navigation li:not(:first-child) {
+  padding-left: 50px;
+}
+.header-contacts {
+  margin-left: 344px;
+}
+.header-contacts li:not(:first-child) {
+  padding-left: 50px;
+}
+.current {
+  color: var(--second-color);
+}
+
+/* First Screen/Hero */
+
+.first-screen {
+  margin: 0 auto;
+  padding: 200px 0;
+  background-color: var(--background-color);
+}
+.first-screen h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.first-screen button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 10px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--second-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.first-screen button:hover,
+.first-screen button:focus {
+  color: var(--second-color);
+  background-color: var(--background-color2);
+}
+
+/* Advantages*/
+
+.advantages {
+  padding: 94px 0 118px 0;
+  font-size: 0;
+}
+.advantages-list {
+  margin-top: 50px;
+}
+.advantages-list li {
+  display: inline-block;
+  margin-left: 30px;
+  width: 270px;
+  vertical-align: top;
+}
+.advantages li:first-child {
+  margin-left: 0;
+}
+.advantages h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.advantages p {
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--third-color);
+}
+
+/* Specialization*/
+
+.specialization {
+  padding-bottom: 94px;
+  font-size: 0;
+}
+.specialization-list {
+  margin-top: 50px;
+}
+.specialization-list li {
+  display: inline-block;
+}
+.specialization li:not(:first-child) {
+  margin-left: 30px;
+}
+
+/* Team */
+
+.team {
+  padding: 94px 0;
+  background-color: var(--background-color2);
+}
+.team-items {
+  margin-top: 50px;
+  font-size: 0;
+}
+.team-items li:not(:first-child) {
+  margin-left: 30px;
+}
+.team-item {
+  display: inline-block;
+  width: 270px;
+  background-color: var(--background-color-white);
+}
+.team h3 {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.team p {
+  margin: 10px 0 30px 0;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--third-color);
+}
+
+/* Footer */
+
+.footer {
+  padding: 34px 0 60px 0;
+  background-color: var(--background-color);
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--background-color-white);
+}
+.footer-logo:hover {
+  color: var(--background-color-white);
+}
+.footer-logo span {
+  color: var(--second-color);
+}
+.footer-address {
+  margin-top: 38px;
+  font-style: normal;
+}
+.footer-address [href*="https://goo"]
+{
+  color: var(--background-color-white);
+}
+.footer-address [href*="https://goo"]:hover
+{
+  color: var(--second-color);
+}
+.footer-address li {
+  margin-bottom: 7px;
+}
+
+/* Portfolio*/
+
+/* Portfolio - Hero */
+
+.portfolio h1 {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.buttons {
+  margin-top: 94px;
+  font-size: 0;
+}
+.button-list {
+  text-align: center;
+}
+.button-list li {
+  display: inline-block;
+}
+.button-list li:not(:first-child) {
+  margin-left: 8px;
+}
+.button {
+  font-family: inherit;
+  padding: 6px 22px;
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--main-color);
+  background: var(--background-color2);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  color: var(--background-color-white);
+  background-color: var(--second-color);
+}
+
+/* Portfolio - Works */
+
+.works {
+  margin: 50px 0 94px 0;
+  font-size: 0;
+}
+.works-item {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 370px;
+  margin-left: 30px;
+  border: 1px solid #eeeeee;
+}
+.works-item:nth-child(3n + 1) {
+  margin-left: 0;
+}
+.works-item:nth-child(4),
+.works-item:nth-child(5),
+.works-item:nth-child(6) {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.works-item img {
+  width: 100%;
+}
+.works-item h2 {
+  display: block;
+  margin-top: 20px;
+  padding-left: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: left;
+  color: var(--main-color);
+}
+
+.works-item p {
+  margin-top: 4px;
+  margin-bottom: 20px;
+  padding-left: 24px;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--third-color);
+}
+/* Portfolio - Header - Icons*/
+
+.header-contacts.svg {
+  margin-left: 290px;
+  vertical-align: middle;
+}
+.header-contacts.svg a {
+  padding-left: 10px;
+}
